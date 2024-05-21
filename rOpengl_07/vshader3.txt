@@ -1,0 +1,22 @@
+#version 330 core
+layout (location = 1) in vec3 aPos;
+layout (location = 0) in vec3 bPos;
+
+out vec2 aTex;
+out vec2 bTex;
+out float tf;
+
+uniform float t;
+
+void main(){
+float nx=(1-t)*aPos.x+t*bPos.x;
+float ny=(1-t)*aPos.y+t*bPos.y;
+
+gl_Position = vec4(aPos.x, aPos.y, 0.0f, 1.0f);
+
+aTex=vec2(nx*0.5+0.5, ny*0.5+0.5);
+bTex=vec2(nx*0.5+0.5, ny*0.5+0.5);
+
+tf=t;
+
+}

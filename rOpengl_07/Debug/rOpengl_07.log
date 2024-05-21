@@ -1,0 +1,67 @@
+﻿  synthesize.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: “APIENTRY”: 宏重定义
+E:\gl2\include\glad\glad.h(32): message : 参见“APIENTRY”的前一个定义
+E:\openglProject\rOpengl_07\rOpengl_07\shader_m.h(59,40): warning C4101: “e”: 未引用的局部变量
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(67,18): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(82,22): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(137,16): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(138,16): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(213,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(437,32): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(459,12): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(460,20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(469,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(655,19): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(656,18): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(686,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(696,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(703,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(711,5): warning C4305: “初始化”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1005,31): warning C4305: “=”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1541,82): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1543,54): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1598,33): warning C4305: “+=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1599,33): warning C4305: “-=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1601,37): warning C4305: “+=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1602,36): warning C4305: “-=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1604,40): warning C4305: “+=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1606,40): warning C4305: “-=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1610,37): warning C4305: “+=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1611,36): warning C4305: “-=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1613,40): warning C4305: “+=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1615,40): warning C4305: “-=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1638,27): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1639,27): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1640,29): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1642,26): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1643,30): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1644,29): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1645,30): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1648,31): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1649,34): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1650,32): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1653,31): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1654,33): warning C4305: “=”: 从“double”到“float”截断
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1018,18): warning C4101: “texture5_1”: 未引用的局部变量
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(1975,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(2012,19): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(2056,67): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(2057,67): warning C4244: “+=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\openglProject\rOpengl_07\rOpengl_07\synthesize.cpp(2058,30): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  rOpengl_07.vcxproj -> E:\openglProject\rOpengl_07\Debug\rOpengl_07.exe

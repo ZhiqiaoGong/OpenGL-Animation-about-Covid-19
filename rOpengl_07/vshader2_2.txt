@@ -1,0 +1,16 @@
+//circle
+#version 330 core
+layout (location = 0) in vec3 cPos;
+
+out vec2 Tex;
+
+uniform mat4 model2;
+uniform mat4 view2;
+uniform mat4 projection2;
+
+void main()
+{
+	gl_Position = projection2 * view2 * model2 * vec4(cPos, 1.0);
+
+	Tex = vec2(4.5*cPos.x + 0.5, 4.5*cPos.y + 0.5);
+}

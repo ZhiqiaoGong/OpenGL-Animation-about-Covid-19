@@ -1,0 +1,17 @@
+#version 330 core
+
+in vec2 aTex;
+in vec2 bTex;
+in float tf;
+
+// texture samplers
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+
+out vec4 FragColor;
+
+void main(){
+
+FragColor = mix(texture(texture1, aTex), texture(texture2, bTex), tf);
+
+}

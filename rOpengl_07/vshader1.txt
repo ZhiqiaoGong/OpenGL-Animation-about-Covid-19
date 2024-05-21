@@ -1,0 +1,21 @@
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aPos1;
+
+out vec2 mouthTex;
+out vec2 maskTex;
+out float tf;
+
+uniform float t;
+
+void main(){
+float nx=(1-t)*aPos.x+t*aPos1.x;
+float ny=(1-t)*aPos.y+t*aPos1.y;
+
+gl_Position = vec4(nx, ny, 0.0f, 1.0f);
+
+mouthTex=vec2(aPos.x*0.85+0.5, aPos.y*1.9+0.5);
+maskTex=vec2(aPos1.x*0.88+0.503, aPos1.y*0.98+0.5);
+
+tf=t;
+}

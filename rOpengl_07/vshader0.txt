@@ -1,0 +1,17 @@
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec2 atex;
+
+out vec2 aTex;
+
+uniform mat4 model0;
+uniform mat4 view0;
+uniform mat4 projection0;
+
+void main(){
+
+	//gl_Position = projection0 * view0 * model0 * vec4(aPos, 1.0);
+	gl_Position=vec4(aPos, 1.0);
+	aTex=atex;
+
+}

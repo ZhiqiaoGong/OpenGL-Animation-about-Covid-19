@@ -1,0 +1,17 @@
+
+#version 330 core
+out vec4 FragColor;
+
+in vec2 Tex;
+
+// texture samplers
+uniform sampler2D texture;
+
+void main()
+{
+	// linearly interpolate between both textures
+	//FragColor = texture(texture, Tex);
+	vec4 cl = texture(texture, Tex);
+	if(cl.a<0.1f) discard;
+	FragColor = cl;
+}

@@ -1,0 +1,15 @@
+#version 330 core
+
+in vec2 aTex;
+
+// texture samplers
+uniform sampler2D texture;
+
+out vec4 FragColor;
+
+void main(){
+
+    vec4 cl = texture(texture, aTex);
+	if(cl.a<0.1f) discard;
+	FragColor = cl;
+}

@@ -1,0 +1,14 @@
+#version 330 core
+
+in vec2 mouthTex;
+in vec2 maskTex;
+in float tf;
+
+// texture samplers
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+
+out vec4 FragColor;
+void main(){
+FragColor = mix(texture(texture1, mouthTex), texture(texture2, maskTex), tf);
+}
